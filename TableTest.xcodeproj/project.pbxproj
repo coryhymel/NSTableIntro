@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E37B5AD0157D17E000492E6C /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = E37B5ACF157D17E000492E6C /* Readme.txt */; };
 		E3E60FB01579865300878161 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E60FAF1579865300878161 /* Cocoa.framework */; };
 		E3E60FBA1579865300878161 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3E60FB81579865300878161 /* InfoPlist.strings */; };
 		E3E60FBC1579865300878161 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E60FBB1579865300878161 /* main.m */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E37B5ACF157D17E000492E6C /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
 		E3E60FAB1579865300878161 /* TableTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E60FAF1579865300878161 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E3E60FB21579865300878161 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -77,6 +79,7 @@
 		E3E60FA01579865300878161 = {
 			isa = PBXGroup;
 			children = (
+				E37B5ACF157D17E000492E6C /* Readme.txt */,
 				E3E60FB51579865300878161 /* TableTest */,
 				E3E60FD51579865400878161 /* TableTestTests */,
 				E3E60FAE1579865300878161 /* Frameworks */,
@@ -229,6 +232,7 @@
 				E3E60FBA1579865300878161 /* InfoPlist.strings in Resources */,
 				E3E60FC01579865300878161 /* Credits.rtf in Resources */,
 				E3E60FC61579865300878161 /* MainMenu.xib in Resources */,
+				E37B5AD0157D17E000492E6C /* Readme.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +443,7 @@
 				E3E60FE21579865400878161 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3E60FE31579865400878161 /* Build configuration list for PBXNativeTarget "TableTestTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +452,7 @@
 				E3E60FE51579865400878161 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
