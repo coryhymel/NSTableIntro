@@ -36,20 +36,20 @@
 		E3E60FB21579865300878161 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		E3E60FB31579865300878161 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		E3E60FB41579865300878161 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		E3E60FB71579865300878161 /* TableTest-Info.plist */ = {isa = PBXFileReference; path = "TableTest-Info.plist"; sourceTree = "<group>"; };
+		E3E60FB71579865300878161 /* TableTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableTest-Info.plist"; sourceTree = "<group>"; };
 		E3E60FB91579865300878161 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E3E60FBB1579865300878161 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E3E60FBD1579865300878161 /* TableTest-Prefix.pch */ = {isa = PBXFileReference; path = "TableTest-Prefix.pch"; sourceTree = "<group>"; };
+		E3E60FBD1579865300878161 /* TableTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableTest-Prefix.pch"; sourceTree = "<group>"; };
 		E3E60FBF1579865300878161 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		E3E60FC11579865300878161 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E3E60FC11579865300878161 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E3E60FC21579865300878161 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E3E60FC51579865300878161 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		E3E60FC81579865300878161 /* TableTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TableTest.xcdatamodel; sourceTree = "<group>"; };
 		E3E60FCF1579865400878161 /* TableTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E60FD01579865400878161 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		E3E60FD71579865400878161 /* TableTestTests-Info.plist */ = {isa = PBXFileReference; path = "TableTestTests-Info.plist"; sourceTree = "<group>"; };
+		E3E60FD71579865400878161 /* TableTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableTestTests-Info.plist"; sourceTree = "<group>"; };
 		E3E60FD91579865400878161 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E3E60FDB1579865400878161 /* TableTestTests.h */ = {isa = PBXFileReference; path = TableTestTests.h; sourceTree = "<group>"; };
+		E3E60FDB1579865400878161 /* TableTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableTestTests.h; sourceTree = "<group>"; };
 		E3E60FDC1579865400878161 /* TableTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableTestTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

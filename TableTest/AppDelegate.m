@@ -8,16 +8,62 @@
 
 #import "AppDelegate.h"
 
+@interface AppDelegate (){
+    int selectedRow;
+}
+
+@end
+
 @implementation AppDelegate
+
 
 @synthesize window = _window;
 @synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
 @synthesize managedObjectModel = __managedObjectModel;
 @synthesize managedObjectContext = __managedObjectContext;
+@synthesize table = _table;
+@synthesize textField = _textField;
+@synthesize saveButton = _saveButton;
+@synthesize iPodVolumes, songs;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    selectedRow = -1;
+    
+    [_saveButton setHidden:YES];
+    
+    iPodVolumes = [[NSMutableArray alloc] initWithObjects:@"1", @"2", @"3", nil];
+    
+    [_table reloadData];
+}
+
+
+- (IBAction)saveNewText:(id)sender {
+    [iPodVolumes replaceObjectAtIndex:selectedRow withObject:[_textField stringValue]];
+    [_table reloadData];
+}
+
+- (IBAction)tableTapped:(id)sender {
+    selectedRow = [sender selectedRow];
+   
+    [_saveButton setHidden:NO];
+    
+    NSLog(@"the user just clicked on row %d", selectedRow);
+    
+    [_textField setStringValue:[iPodVolumes objectAtIndex:selectedRow]];
+}
+
+- (NSInteger)numberOfRowsInTableView:(NSTableView*)tableView {
+    return [iPodVolumes count];
+}
+
+- (id)tableView:(NSTableView*)tableView
+objectValueForTableColumn:(NSTableColumn*)tableColumn
+            row:(NSInteger)row
+{   
+    
+    return (NSString*)[iPodVolumes objectAtIndex:row];
 }
 
 // Returns the directory the application uses to store the Core Data store file. This code uses a directory named "PNT.TableTest" in the user's Application Support directory.
@@ -121,7 +167,7 @@
     return [[self managedObjectContext] undoManager];
 }
 
-// Performs the save action for the application, which is to send the save: message to the application's managed object context. Any encountered errors are presented to the user.
+
 - (IBAction)saveAction:(id)sender
 {
     NSError *error = nil;
